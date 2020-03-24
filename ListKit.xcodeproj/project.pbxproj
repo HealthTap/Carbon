@@ -46,7 +46,7 @@
 		6B6F25C322EE25A2009C3029 /* MockCustomXibTableViewHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B6F25C222EE25A2009C3029 /* MockCustomXibTableViewHeaderFooterView.xib */; };
 		6B6F25C522EE267E009C3029 /* MockCustomXibCollectionViewReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B6F25C422EE267E009C3029 /* MockCustomXibCollectionViewReusableView.xib */; };
 		6B7ADEB121F783E3003803BE /* ComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7ADEB021F783E3003803BE /* ComponentTests.swift */; };
-		6B7ADEB321F783E3003803BE /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B65947A21E252E300291AAF /* Carbon.framework */; };
+		6B7ADEB321F783E3003803BE /* ListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B65947A21E252E300291AAF /* ListKit.framework */; };
 		6B7ADEBA21F78957003803BE /* TestTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7ADEB921F78957003803BE /* TestTools.swift */; };
 		6B7ADEBC21F8B464003803BE /* AnyComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7ADEBB21F8B464003803BE /* AnyComponentTests.swift */; };
 		6B7ADEBE21F8BF89003803BE /* ViewNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7ADEBD21F8BF89003803BE /* ViewNodeTests.swift */; };
@@ -95,7 +95,7 @@
 		6B55C18F2327968A004F89F2 /* SectionsBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsBuilderTests.swift; sourceTree = "<group>"; };
 		6B55C19123279865004F89F2 /* CellsBuildableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellsBuildableTests.swift; sourceTree = "<group>"; };
 		6B55C19323279A69004F89F2 /* SectionsBuildableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsBuildableTests.swift; sourceTree = "<group>"; };
-		6B65947A21E252E300291AAF /* Carbon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Carbon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B65947A21E252E300291AAF /* ListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B65948621E2532100291AAF /* IdentifiableComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifiableComponent.swift; sourceTree = "<group>"; };
 		6B65948A21E2532100291AAF /* UICollectionViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewAdapter.swift; sourceTree = "<group>"; };
 		6B65948B21E2532100291AAF /* UITableViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewAdapter.swift; sourceTree = "<group>"; };
@@ -163,7 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B7ADEB321F783E3003803BE /* Carbon.framework in Frameworks */,
+				6B7ADEB321F783E3003803BE /* ListKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +240,7 @@
 		6B65947B21E252E300291AAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6B65947A21E252E300291AAF /* Carbon.framework */,
+				6B65947A21E252E300291AAF /* ListKit.framework */,
 				6B7ADEAE21F783E3003803BE /* Tests.xctest */,
 			);
 			name = Products;
@@ -423,9 +423,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6B65947921E252E300291AAF /* Carbon */ = {
+		6B65947921E252E300291AAF /* ListKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B65948221E252E300291AAF /* Build configuration list for PBXNativeTarget "Carbon" */;
+			buildConfigurationList = 6B65948221E252E300291AAF /* Build configuration list for PBXNativeTarget "ListKit" */;
 			buildPhases = (
 				6B65947521E252E300291AAF /* Headers */,
 				6B65947621E252E300291AAF /* Sources */,
@@ -437,9 +437,9 @@
 			);
 			dependencies = (
 			);
-			name = Carbon;
+			name = ListKit;
 			productName = Carbon;
-			productReference = 6B65947A21E252E300291AAF /* Carbon.framework */;
+			productReference = 6B65947A21E252E300291AAF /* ListKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6B7ADEAD21F783E3003803BE /* Tests */ = {
@@ -480,7 +480,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6B65947421E252E300291AAF /* Build configuration list for PBXProject "Carbon" */;
+			buildConfigurationList = 6B65947421E252E300291AAF /* Build configuration list for PBXProject "ListKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -493,7 +493,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6B65947921E252E300291AAF /* Carbon */,
+				6B65947921E252E300291AAF /* ListKit */,
 				6B7ADEAD21F783E3003803BE /* Tests */,
 			);
 		};
@@ -617,7 +617,7 @@
 /* Begin PBXTargetDependency section */
 		6B7ADEB521F783E3003803BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6B65947921E252E300291AAF /* Carbon */;
+			target = 6B65947921E252E300291AAF /* ListKit */;
 			targetProxy = 6B7ADEB421F783E3003803BE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -769,7 +769,7 @@
 				);
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryo.Carbon;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ListKit;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -800,7 +800,7 @@
 				);
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryo.Carbon;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ListKit;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -852,7 +852,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6B65947421E252E300291AAF /* Build configuration list for PBXProject "Carbon" */ = {
+		6B65947421E252E300291AAF /* Build configuration list for PBXProject "ListKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B65948021E252E300291AAF /* Debug */,
@@ -861,7 +861,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B65948221E252E300291AAF /* Build configuration list for PBXNativeTarget "Carbon" */ = {
+		6B65948221E252E300291AAF /* Build configuration list for PBXNativeTarget "ListKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B65948321E252E300291AAF /* Debug */,

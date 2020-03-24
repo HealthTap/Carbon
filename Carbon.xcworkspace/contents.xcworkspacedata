@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Carbon.playground">
+      location = "group:/Users/zhubofei/ListKit/ListKit.playground">
    </FileRef>
    <FileRef
-      location = "container:Carbon.xcodeproj">
+      location = "container:/Users/zhubofei/ListKit/ListKit.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Carthage/Checkouts/DifferenceKit/DifferenceKit.xcodeproj">

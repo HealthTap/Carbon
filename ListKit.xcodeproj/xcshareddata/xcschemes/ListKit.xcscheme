@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6B65947921E252E300291AAF"
-               BuildableName = "Carbon.framework"
-               BlueprintName = "Carbon"
-               ReferencedContainer = "container:Carbon.xcodeproj">
+               BuildableName = "ListKit.framework"
+               BlueprintName = "ListKit"
+               ReferencedContainer = "container:ListKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,9 +31,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6B65947921E252E300291AAF"
-            BuildableName = "Carbon.framework"
-            BlueprintName = "Carbon"
-            ReferencedContainer = "container:Carbon.xcodeproj">
+            BuildableName = "ListKit.framework"
+            BlueprintName = "ListKit"
+            ReferencedContainer = "container:ListKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -44,7 +44,7 @@
                BlueprintIdentifier = "6B7ADEAD21F783E3003803BE"
                BuildableName = "Tests.xctest"
                BlueprintName = "Tests"
-               ReferencedContainer = "container:Carbon.xcodeproj">
+               ReferencedContainer = "container:ListKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -63,9 +63,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6B65947921E252E300291AAF"
-            BuildableName = "Carbon.framework"
-            BlueprintName = "Carbon"
-            ReferencedContainer = "container:Carbon.xcodeproj">
+            BuildableName = "ListKit.framework"
+            BlueprintName = "ListKit"
+            ReferencedContainer = "container:ListKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -79,9 +79,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6B65947921E252E300291AAF"
-            BuildableName = "Carbon.framework"
-            BlueprintName = "Carbon"
-            ReferencedContainer = "container:Carbon.xcodeproj">
+            BuildableName = "ListKit.framework"
+            BlueprintName = "ListKit"
+            ReferencedContainer = "container:ListKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
