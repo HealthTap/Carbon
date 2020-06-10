@@ -2,7 +2,7 @@
 
 import XCTest
 import SwiftUI
-@testable import Carbon
+@testable import CarbonList
 
 final class ComponentSwiftUISupportTests: XCTestCase {
     func testDisplayLifecycle() {

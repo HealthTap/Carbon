@@ -1,6 +1,6 @@
 import XCTest
 import UIKit
-@testable import Carbon
+@testable import CarbonList
 
 /// Identifier for tests.
 enum TestID {

@@ -6,7 +6,7 @@
  > 3. Open Carbon playground in project navigator.
  > 4. Show the live view in assistant editor.
  */
-import Carbon
+import CarbonList
 import UIKit
 import PlaygroundSupport
 

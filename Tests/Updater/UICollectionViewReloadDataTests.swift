@@ -1,6 +1,6 @@
 import XCTest
 import DifferenceKit
-@testable import Carbon
+@testable import CarbonList
 
 final class UICollectionViewReloadDataTests: XCTestCase {
     func testPrepare() {

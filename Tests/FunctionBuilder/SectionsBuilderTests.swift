@@ -1,5 +1,5 @@
 import XCTest
-@testable import Carbon
+@testable import CarbonList
 
 final class SectionsBuilderTests: XCTestCase {
     func testInit0() {

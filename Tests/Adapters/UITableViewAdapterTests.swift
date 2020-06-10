@@ -1,5 +1,5 @@
 import XCTest
-@testable import Carbon
+@testable import CarbonList
 
 final class UITableViewAdapterTests: XCTestCase {
     func testNumberOfSections() {
